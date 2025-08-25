@@ -12,3 +12,7 @@ a  = int(input("enter the first number "))
 b  = int(input("enter the second number ")) 
 print("Average " , (a+b)/2 )
 
+#given nubmer is squre
+
+a  = int(input("enter the number ")) 
+print("squre number of a is ",a*a)
