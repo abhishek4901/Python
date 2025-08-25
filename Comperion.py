@@ -16,3 +16,4 @@ print("Average " , (a+b)/2 )
 
 a  = int(input("enter the number ")) 
 print("squre number of a is ",a*a)
+print("squre number of a is ",a**2)#a ke power 2
