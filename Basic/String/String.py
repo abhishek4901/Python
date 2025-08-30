@@ -5,4 +5,4 @@ print(b)#he
 c = a[:3]#string index is zero
 print(c)#hel
  
-  
+   
