@@ -22,6 +22,8 @@ print(a)
 a.remove("ram")
 print(a)#[1, 2, 3333333, 3, 5, 7, 21, 34, 'Mahadev']
 
-#pop() use to delete vale using index
+#pop() use to delete vale using index and return that value
 a.pop(1)
-print(a)#[1, 3333333, 3, 5, 7, 21, 34, 'Mahadev']
+print(a)#print updated list[1, 3333333, 3, 5, 7, 21, 34, 'Mahadev']
+
+print(a.pop(1))#here is working but only print the value of poped 3333333
