@@ -27,3 +27,6 @@ a.pop(1)
 print(a)#print updated list[1, 3333333, 3, 5, 7, 21, 34, 'Mahadev']
 
 print(a.pop(1))#here is working but only print the value of poped 3333333
+#or for return value
+# v = a.pop(1)
+# print(v)#333333
