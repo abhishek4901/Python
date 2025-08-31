@@ -7,6 +7,7 @@
 # print( "sum of number =" , a+b)#1+1 = 2
 # print( "remainder = ", a%b)# 5%2 = 1 remiander
 
+#input and dishplay
 a = input("enter the name ")
-print(f"Good after noon {a}") #input show dishplay
+print(f"Good after noon {a}") #input show dishplay fstring
 print("Good after noon " + a )#this is also work
