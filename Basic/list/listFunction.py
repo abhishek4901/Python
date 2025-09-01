@@ -3,7 +3,7 @@ print(a)#[1, 2, 7, 5, 3, 12, 34, 21]
  
 #sort
 a.sort()
-print(a.sort())#none so not use this type
+print(a.sort())#none so not use this type 
 print(a)#[1, 2, 3, 5, 7, 12, 21, 34]
 
 #append = insert at the end 
