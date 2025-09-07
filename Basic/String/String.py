@@ -1,4 +1,4 @@
-a = "hello"
+a = "hello" 
 print(a)#hello     
 b= a[0:2]#starting index : end index 
 print(b)#he
