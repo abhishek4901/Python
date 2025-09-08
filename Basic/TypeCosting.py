@@ -1,7 +1,7 @@
 #basically it show the data type of valriables
 a = 10 
 b = type(a)
-print(b) # int
+print(b) # int and b = sizeof(a); then 8bit
 c = 10.5 
 d = type(c)
 print(d) # float
