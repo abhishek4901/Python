@@ -4,7 +4,7 @@ c = () #empty tuple
 a = ( 1,3,4,4,5,5,6,4,3,4)
 print(type(a))#tuple
 print(a)#(1, 3, 4, 4, 5, 5, 6, 4, 3, 4)
- #tuple function 
+ #tuple function  
  
  #count() count the value 
 a.count(4)
