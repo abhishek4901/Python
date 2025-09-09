@@ -2,7 +2,7 @@ d = "abhishek"
 print(len(d))
 #start function 
 print(d.startswith("ab"))#true
-print(d.startswith("wkqd")) #false
+print(d.startswith("wkqd")) #false 
 #end function
 print(d.endswith("wkqd")) #false
 #capitale
