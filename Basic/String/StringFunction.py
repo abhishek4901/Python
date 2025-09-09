@@ -3,7 +3,7 @@ print(len(d))
 #start function 
 print(d.startswith("ab"))#true
 print(d.startswith("wkqd")) #false 
-#end function
+#end function 
 print(d.endswith("wkqd")) #false 
 #capitale
 print(d.capitalize()) #first word of letter is capital
