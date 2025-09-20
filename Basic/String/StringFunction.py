@@ -1,14 +1,21 @@
 d = "abhishek"
 print(len(d))
+print(d.lower()) #all letter in lower case
+print(d.upper()) #all letter in upper case
+
 #start function 
 print(d.startswith("ab"))#true
 print(d.startswith("wkqd")) #false 
+
 #end function  
 print(d.endswith("wkqd")) #false 
+
 #capitale
-print(d.capitalize()) #first word of letter is capital
+print(d.capitalize()) #Abhishek, first word of letter is capital 
+
 #replace
 print(d.replace("abhi", "nhi"))#nhishek
+
 #find
 b = "hello python "
 c= b.find("lo")

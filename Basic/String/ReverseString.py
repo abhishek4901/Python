@@ -10,7 +10,7 @@ x = ''.join(reversed(x))
 print(x)
 
 # 3. using loop
-x = "hello"
+x = "hello3"
 y = "" #empty string
 for i in x:
     y = i + y
