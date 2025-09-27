@@ -1,0 +1,8 @@
+ti = ("a",)
+t = ("a")
+print(type(ti))
+print(type(t))
+ti = (5,)
+t = (5)
+print(type(ti))
+print(type(t))

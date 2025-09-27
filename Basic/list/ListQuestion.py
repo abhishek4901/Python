@@ -34,9 +34,10 @@ print("remove the dublicates then list",n)
 
 
 #display the list the maximun number of list without predefine function
-for i in range(4):
-    for j in range(4):
-        if(list[i]>list[j+1]):
-            list1[i]=list[j]
-    print(list1)
-
+# Display the maximum number in the list without predefined function
+list1 = [1, 200, 33]
+max_num = list1[0]
+for num in list1:
+    if num > max_num:
+        max_num = num
+print("Maximum number in the list:", max_num)
