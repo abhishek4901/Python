@@ -11,6 +11,9 @@ print(list1)
 n = max(list1)
 print(" maximum number in the list", n )
 
+
+
+
 #display the list the smallest number of list
 n = min(list1)
 print(" minimum number in the list", n )
@@ -27,3 +30,13 @@ print("frequency :", frequency )
 #remove the  dublicate 
 n = list(set(list1))
 print("remove the dublicates then list",n)
+
+
+
+#display the list the maximun number of list without predefine function
+for i in range(4):
+    for j in range(4):
+        if(list[i]>list[j+1]):
+            list1[i]=list[j]
+    print(list1)
+
