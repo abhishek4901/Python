@@ -9,5 +9,4 @@ d = "i am good \"boy\" "#there print \boy\
 print(d) 
 e = 'i am good \'boy\' '
 print(e)
- 
-   
+    
