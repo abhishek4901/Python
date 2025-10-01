@@ -6,7 +6,7 @@ c = a[:3]#string index is zero
 print(c)#hel 
 #escape sequnce charecter  
 d = "i am good \"boy\" "#there print \boy\
-print(d)
+print(d) 
 e = 'i am good \'boy\' '
 print(e)
  
