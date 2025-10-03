@@ -18,7 +18,7 @@ print("Original Matrix:")
 for row in matrix:
     print(row)
 
-# Display transpose
+# Display transpose 
 print("Transpose of Matrix:")
 for row in transpose:
     print(row)
