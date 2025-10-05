@@ -1,0 +1,20 @@
+# Input string from user
+text = input("Enter a sentence: ")
+
+# Split the sentence into words
+words = text.split()
+
+# Create a dictionary to count words
+count = {}
+
+# Count each word
+for w in words:
+    if w in count:
+        count[w] += 1
+    else:
+        count[w] = 1
+
+# Display the counts
+print("Word count:")
+for key, value in count.items():
+    print(key, ":", value)
