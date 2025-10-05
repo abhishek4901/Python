@@ -14,5 +14,7 @@ s = "Hello"
 numbers = [1, 2, 3,4,5,7]
 # numbers.append(4)        # Add 4 at the end → [1,2,3,4]
 # numbers.insert(1, 5)     # Insert 5 at index 1 → [1,5,2,3,4]
-numbers.remove(7)        # Remove 2 → [1,5,3,4]
-print(numbers)
+# numbers.remove(7)        # Remove 2 → [1,5,3,4]
+# print(numbers)
+for i in numbers :
+    print(i)
