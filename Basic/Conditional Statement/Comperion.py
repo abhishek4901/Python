@@ -6,7 +6,7 @@ print(a<b)#true
 a  = int(input("enter the first number ")) 
 b  = int(input("enter the second number ")) 
 print("a is greter than b " , a>b )
- 
+  
  #find average number of 2 number 
 a  = int(input("enter the first number ")) 
 b  = int(input("enter the second number ")) 
