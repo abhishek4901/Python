@@ -5,7 +5,7 @@ s2 = input("Enter the second string: ")
 str1 = s1.lower().replace(" ", "") 
 str2 = s2.lower().replace(" ", "") 
 
-# Check if sorted strings are equal 
+# Check if sorted strings are equal  
 if sorted(str1) == sorted(str2):
     print(f"'{s1}' and '{s2}' are anagrams")
 else:
