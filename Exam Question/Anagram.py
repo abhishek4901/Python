@@ -12,7 +12,7 @@ else:
     print(f"'{s1}' and '{s2}' are not anagrams") 
 
  #usig frequency count 
-s1 = input("Enter the first string: ")
+s1 = input("Enter the first string: ") 
 s2 = input("Enter the second string: ")
 
 # Convert to lowercase and remove spaces
