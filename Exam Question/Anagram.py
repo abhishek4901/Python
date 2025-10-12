@@ -9,7 +9,7 @@ str2 = s2.lower().replace(" ", "")
 if sorted(str1) == sorted(str2):
     print(f"'{s1}' and '{s2}' are anagrams")
 else:
-    print(f"'{s1}' and '{s2}' are not anagrams")
+    print(f"'{s1}' and '{s2}' are not anagrams") 
 
  #usig frequency count 
 s1 = input("Enter the first string: ")
