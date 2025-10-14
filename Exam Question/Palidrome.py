@@ -1,4 +1,4 @@
-    #slicing()
+     #slicing()
    
 s = input("enter the string ")
 s_clean = s.lower()
