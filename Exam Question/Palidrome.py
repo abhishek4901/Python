@@ -7,7 +7,7 @@ if s_clean[::-1]:
     print(f"'{s}' is a palindrome")
 else:
     print(f"'{s}' is not a palindrome") 
-    
+     
 #Method 2: Using a loop
 s = input("enter the string ")
 s_clean = s.lower()
