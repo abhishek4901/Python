@@ -9,7 +9,7 @@ if len(username) > 2:
     maskede = username[0] + "*" * (len(username) - 2) + username[-1]
 else:
     maskede = username[0] + "*"
-
+ 
 # Combine back
 masked_email = maskede + "@" + domain
 
