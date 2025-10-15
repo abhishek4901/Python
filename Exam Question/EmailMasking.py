@@ -2,7 +2,7 @@
 email = input("Enter your email: ")
 
 # Split into username and domain
-username, domain = email.split("@")
+username, domain = email.split("@") 
  
 # Mask middle part of username
 if len(username) > 2:
