@@ -4,7 +4,7 @@ email = input("Enter your email: ")
 # Split email into username and domain
 username, domain = email.split("@")
 
-# Mask username except first 2 and last character (if username length > 3)
+# Mask username except first 2 and last character (if username length > 3) 
 if len(username) > 3:
     masked_username = username[:2] + "*"*(len(username)-3) + username[-1] 
 else:
