@@ -1,4 +1,4 @@
-# Input 3x3 matrix
+ # Input 3x3 matrix
 matrix = []
 print("Enter elements of 3x3 matrix row-wise:")
 for i in range(3):
