@@ -14,7 +14,7 @@ for i in range(3):
     transpose.append(trans_row)
 
 # Display original matrix
-print("Original Matrix:")
+print("Original Matrix:") 
 for row in matrix:
     print(row)
 
