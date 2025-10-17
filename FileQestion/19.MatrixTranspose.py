@@ -9,7 +9,7 @@ for i in range(3):
 transpose = []
 for i in range(3):
     trans_row = []
-    for j in range(3):
+    for j in range(3): 
         trans_row.append(matrix[j][i])
     transpose.append(trans_row)
 
