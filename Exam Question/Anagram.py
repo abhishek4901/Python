@@ -3,7 +3,7 @@ s2 = input("Enter the second string: ")
 
 # Convert to lowercase
 str1 = s1.lower().replace(" ", "")  
-str2 = s2.lower().replace(" ", "") 
+str2 = s2.lower().replace(" ", "")  
   
 # Check if sorted strings are equal  
 if sorted(str1) == sorted(str2):    
