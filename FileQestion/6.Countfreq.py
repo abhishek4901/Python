@@ -10,7 +10,7 @@ for char in text:
         freq[char] += 1 
     else:
         freq[char] = 1  
-
+ 
 # Display result
 print("Character Frequency:")
 for key, value in freq.items():
