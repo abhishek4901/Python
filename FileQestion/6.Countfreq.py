@@ -7,7 +7,7 @@ freq = {}
 # Count frequency of each character
 for char in text:
     if char in freq:
-        freq[char] += 1
+        freq[char] += 1 
     else:
         freq[char] = 1
 
