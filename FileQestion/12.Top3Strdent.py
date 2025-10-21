@@ -12,3 +12,4 @@ for i in range(len(scores)):
 top_3 = scores[:3]
 
 print("Top 3 Scores:", top_3)
+ 
