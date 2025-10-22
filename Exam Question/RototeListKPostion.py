@@ -7,3 +7,4 @@ k = k % len(nums)  # in case k > length
 rotated = nums[k:] + nums[:k]
  
 print("Rotated list:", rotated)
+ 
