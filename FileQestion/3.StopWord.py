@@ -3,7 +3,7 @@ stop_words = ["is", "the", "a", "an", "of", "in", "on", "and", "to", "for"]
 
 # Take input 
 text = input("Enter a sentence: ")
-
+ 
 # Remove stop words using a simple loop
 result = "" 
 for word in text.split():
