@@ -1,6 +1,6 @@
 import tkinter as tk
 import speedtest
-import threading 
+import threading  
 
 def run_speed_test():
     result_label.config(text="Finding best server...\n")
