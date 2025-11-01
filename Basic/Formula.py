@@ -6,7 +6,7 @@ if grade == 'A':
 elif grade == 'B':
     allowance = 1500.0
 else:
-    allowance = 1300.0
+    allowance = 1300.0 
  
 hra = 0.2 * basic
 da = 0.5 * basic
