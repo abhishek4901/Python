@@ -2,17 +2,17 @@ s1 = input("Enter the first string: ")
 s2 = input("Enter the second string: ")
 
 # Convert to lowercase
-str1 = s1.lower().replace(" ", "")
-str2 = s2.lower().replace(" ", "")
-
-# Check if sorted strings are equal
-if sorted(str1) == sorted(str2):
-    print(f"'{s1}' and '{s2}' are anagrams")
-else:
-    print(f"'{s1}' and '{s2}' are not anagrams")
+str1 = s1.lower().replace(" ", "")  
+str2 = s2.lower().replace(" ", "")  
+  
+# Check if sorted strings are equal  
+if sorted(str1) == sorted(str2):    
+    print(f"'{s1}' and '{s2}' are anagrams") 
+else:  
+    print(f"'{s1}' and '{s2}' are not anagrams") 
 
  #usig frequency count 
-s1 = input("Enter the first string: ")
+s1 = input("Enter the first string: ") 
 s2 = input("Enter the second string: ")
 
 # Convert to lowercase and remove spaces
