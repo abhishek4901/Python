@@ -21,18 +21,8 @@ if __name__ == "__main__":
     # Outer loop to allow the entire program to run again
     while True: 
         
-        # 1. Get number of students with validation
-        while True:
-            try:
-                n = int(input("Enter number of students: "))
-                if n <= 0:
-                    print("Please enter a positive integer.")
-                    continue
-                break
-            except ValueError:
-                print("Invalid input. Please enter an integer.")
-
-        # 2. Collect student data
+        
+    
         students = []
         for i in range(1, n + 1):
             print(f"\nEntering data for student {i}:")
