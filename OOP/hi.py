@@ -14,7 +14,7 @@ class Student:
         print("\n--- Student Details ---")
         print(f"Name: {self.name}")
         print(f"Roll Number: {self.roll_number}")
-    
+     
 
 if __name__ == "__main__":
     
