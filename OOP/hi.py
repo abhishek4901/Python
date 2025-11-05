@@ -2,7 +2,7 @@ class Student:
     
     def __init__(self):
         self.name = ""
-        self.roll_number = "" 
+        self.roll_number = ""  
     
     def get_data(self):
         """Prompts the user to input student details."""
