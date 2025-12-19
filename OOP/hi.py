@@ -1,39 +1,34 @@
 class Student:
     
-    def __init__(self):
-        self.name = ""
-        self.roll_number = ""   
+    def getdata(self):
+        self__name = input("enter  name :")
+        self__rollno = int(input("enter roll no :"))  
     
-    def get_data(self):
-        """Prompts the user to input student details."""
-        self.name = input("Enter student name: ").strip()
-        self.roll_number = input("Enter student roll number: ").strip()
      
     def show_data(self):
-        """Prints the student's details."""
         print("\n--- Student Details ---")
-        print(f"Name: {self.name}")
+        print(f"Name: {self__name}" "\t" roll no : {self__rollno})
         print(f"Roll Number: {self.roll_number}")
-     
+   
+    def get__name(self):
+        return self__name
+    
+    def get__rollno(self):
+        return self_rollno
 
-if __name__ == "__main__":
-    
-    # Outer loop to allow the entire program to run again
-    while True: 
+n = int(input("enter no of students"))
+students = []
+
+
         
-        
-    
-        students = []
-        for i in range(1, n + 1):
-            print(f"\nEntering data for student {i}:")
+        for i in range(n):
             s = Student()
-            s.get_data()
+            s.getdata()
             students.append(s)
 
         # 3. Display all student details
         print("\nAll Student Details ")
-        for idx, s in enumerate(students, 1):
-            print(f"\nStudent {idx}:")
+        for idx, s in enumerate:
             s.show_data()
 
         # 4. Search loop
