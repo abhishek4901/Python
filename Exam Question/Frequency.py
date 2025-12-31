@@ -1,12 +1,8 @@
 # Input string from user
-text = input("Enter a sentence: ")
-
-# Split the sentence into words
+text = input("Enter a sentence: ").lower().replace(" ","")
 words = text.split()
 
-# Create a dictionary to count words
 count = {}
-
 # Count each word
 for w in words:
     if w in count:

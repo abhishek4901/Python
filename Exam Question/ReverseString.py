@@ -2,7 +2,7 @@
 
 #You can loop through the string from the end to the start using negative indexing:
 
-s = input("enter the sstring ")
+s = input("enter the string ")
 reversed_s = ""
 
 # Loop from last index to first

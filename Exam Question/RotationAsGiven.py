@@ -15,7 +15,7 @@ s = input("Enter a string: ")
 n = len(s)
 
 # Print rotations including original at the end
-for i in range(1, n + 1):
+for i in range(0, n):
     rotation = ""
     for j in range(0,n):
         rotation += s[(i + j) % n]
