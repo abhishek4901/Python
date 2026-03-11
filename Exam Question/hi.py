@@ -16,5 +16,9 @@ numbers = [1, 2, 3,4,5,7]
 # numbers.insert(1, 5)     # Insert 5 at index 1 → [1,5,2,3,4]
 # numbers.remove(7)        # Remove 2 → [1,5,3,4]
 # print(numbers)
-for i in numbers :
-    print(i)
+def greet(name="User"):
+    print("Hello", name)#Hello Amit
+
+greet()#no  value pass then take default  value
+greet("Amit")
+
